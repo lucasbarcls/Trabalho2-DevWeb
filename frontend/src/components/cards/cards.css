@@ -1,0 +1,50 @@
+.marra{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;  
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-x: auto; 
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.card:last-child {
+  margin-right: 0; 
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.nome {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.description {
+  margin-top: 8px;
+}
+
+.price {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #1a73e8; /* Cor para destacar o preço */
+}
+
