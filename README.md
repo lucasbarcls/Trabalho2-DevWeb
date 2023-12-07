@@ -9,5 +9,5 @@ Foi feita uma tabela de produtos, utilizando o typeorm, com nome, preço, descri
 
 Comentários no código fonte explicam a lógica de criação da tabela no banco de dados e da API
 
-#Front-End
+# Front-End
 Aplicação React de um ecommerce de smartphones. A página inicial exibe os produtos obtidos no banco de dados atravéz da API. A página inicial inclui Navbar, página de login e cadastro de usuários.
